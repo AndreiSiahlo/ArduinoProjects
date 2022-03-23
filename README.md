@@ -1,4 +1,4 @@
 # ArduinoProjects
 Arduino Projects
 
-tHIS REPOSITORY CONTAINS THE ARDUINO SKETCHES WITH DESCRIPTION
+This repository contains the Arduino sketches with the description
