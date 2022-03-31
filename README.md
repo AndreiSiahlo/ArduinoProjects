@@ -4,8 +4,6 @@ Arduino Projects
 Andrei Siahlo, 
 https://www.researchgate.net/profile/Andrei-Siahlo
 
-Andrei Siahlo, https://www.researchgate.net/profile/Andrei-Siahlo
-
 This repository contains the simple Arduino sketches with the description
 
 SketchAr010EmptyEmpty
