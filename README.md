@@ -6,7 +6,7 @@ https://www.researchgate.net/profile/Andrei-Siahlo
 
 This repository contains the simple Arduino sketches with the description
 
-* SketchAr010EmptyEmpty.  
+* SketchAr010EmptyEmpty. 
 the simplest sketch that provides no operations
 
 SketchAr020BlinkOnOff. 
