@@ -1,5 +1,10 @@
 //  SketchAr031BlinkControlLHFpm0.ino
 // https://habr.com/ru/post/352806/
+//  The LED on the Arduino plate 
+//  could be set in the 'On', 'Off' or the 'blinking' state.
+//  by the commands 'H' and 'L' or 'F'.
+//  The frequency of blinking is controlled by the commands '+' or '-'.
+//  The initial frequency of blinking is set by the command '0'.
 const int BITRATE=9600;
 const int ModeHIGH=1,ModeLOW=0,ModeFLASH=3,ModeON=1,ModeOFF=0;
 int HLFmode, OnOffMode, DurationOnOff;
