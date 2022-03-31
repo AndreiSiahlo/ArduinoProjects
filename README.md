@@ -1,14 +1,12 @@
 # ArduinoProjects
 Arduino Projects
 
-This repository contains the simple Arduino sketches with the description
-
 Andrei Siahlo, 
 https://www.researchgate.net/profile/Andrei-Siahlo
 
-This repository contains the simple Arduino sketches with the description
-
 Andrei Siahlo, https://www.researchgate.net/profile/Andrei-Siahlo
+
+This repository contains the simple Arduino sketches with the description
 
 SketchAr010EmptyEmpty
 the simplest sketch that provides no operations
