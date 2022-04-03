@@ -1,4 +1,9 @@
 //SketchAr040FlashLEDpin8OnOnOff    (2020.10)
+//The LED on the plate, connected to Arduino,
+// turns on for the 3 seconds. 
+//The voltage of 5V between GND and the Pin8 is set these 3 seconds.
+//Thereafter the LED turns off for the short time. 
+//For this short time no voltage is set to Pin8.
 
 int Led = 8;  
 // The declaration of a integer variable 'Led'
