@@ -1,5 +1,4 @@
-# ArduinoProjects
-Arduino Projects
+# Arduino Projects
 
 Andrei Siahlo, 
 https://www.researchgate.net/profile/Andrei-Siahlo
