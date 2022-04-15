@@ -1,14 +1,13 @@
 //SketchAr062SoundNotes
 //http://developer.alexanderklimov.ru/arduino/piezo.php
 //При загрузке скетча подключенный к плате пьезодинамик генерирует звуковые сигналы с частотами нот
-//At the sketch load the piezo element connected to the arduino board generates the sound signals with frequencies of the notes 
+//At the sketch execution the piezo element connected to the arduino board generates the sound signals with frequencies of the notes 
 
 const int SoundPin = 2; // Пин подключения пьезоизлучателя – 2 дискретный
 const int DelaySound = 100; // Пауза 0.1 секунда
 const int Nnotes=8;
 
 // The notes: do,re,mi,fa,sol,la,si,do
-// The frequencies of the notes in Hz: 261.6,293.7,329.6,349.2,392,440,494,523.25;
 int tFrequencyTNote[8]={262,294,329,349,392,440,494,523};
 
 void setup()
