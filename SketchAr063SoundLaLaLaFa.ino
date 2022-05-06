@@ -99,7 +99,7 @@ void setup()
  noTone(SoundPin); // Выключаем звук
  delay(GapNotesDuration1000);
 
-  tone(SoundPin, fNoteD2);  // Начинается воспроизводство сигнала с частотой tFrequencyTNote[7] (Гц)
+ tone(SoundPin, fNoteD2);  // Начинается воспроизводство сигнала с частотой tFrequencyTNote[7] (Гц)
  delay(NoteDuration100);  // Пауза 1 секунда (100 миллисекунд – значение переменной GapNotesDuration ) – длительность воспроизведения сигнала
  noTone(SoundPin); // Выключаем звук
  delay(GapNotesDuration1000);
@@ -149,6 +149,7 @@ void loop()
  if(iNote>=NotesSonataLength)
  {iNote=0;
   iRepeats++;
+  delay(GapNotesDuration1000);
   delay(GapNotesDuration1000);
   delay(GapNotesDuration300);
  }
