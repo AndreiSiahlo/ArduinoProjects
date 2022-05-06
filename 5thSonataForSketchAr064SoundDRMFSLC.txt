@@ -1,0 +1,21 @@
+
+The following sequences of the commands generate the next sequences of the notes: 
+
+PLLLFPSSSMP
+la-la-la-fa.... sol-sol-sol-mi
+(         (5th sonata more notes))
+
+la - B
+fa - G
+sol - Y
+mi -  R
+
+ля ля ля фа соль соль соль ми ре ре ре до
+
+PLLLFPPSSSMP	OK
+PLLLFPPSSSMPRRRDP    OK
+PLLLFPPSSSMPRRRDPRRRDP
+PLLLFPPSSSMPRRRDPRRRDPRRRDPDPDPLLLFP	OK
+PLLLFPPSSSMPRRRDPRRRDPRRRDPDPDPFFFRP
+
+Дарья, а это не 5я симфония Бетховена? только там соль соль соль ми бемоль, фа фа фа фа ре.

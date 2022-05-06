@@ -1,7 +1,7 @@
 //SketchAr062SoundNotes
 //http://developer.alexanderklimov.ru/arduino/piezo.php
 //При загрузке скетча подключенный к плате пьезодинамик генерирует звуковые сигналы с частотами нот
-//At the sketch execution the piezo element connected to the arduino board generates the sound signals with frequencies of the notes 
+//At the sketch execution the piezo buzzer connected to the arduino board generates the sound signals with frequencies of the notes 
 
 const int SoundPin = 2; // Пин подключения пьезоизлучателя – 2 дискретный
 const int DelaySound = 100; // Пауза 0.1 секунда

@@ -1,0 +1,4 @@
+At the sketch execution, the piezo buzzer connected to the arduino board, 
+ plays notes in sequence "La La La Fa Sol Sol Sol Mi".
+Note: The arduine board with this sketch generates the sequence when its
+ USB-port is connected to the any USB-connector with the power

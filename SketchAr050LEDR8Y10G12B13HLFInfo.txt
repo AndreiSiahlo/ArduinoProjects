@@ -1,0 +1,4 @@
+* SketchAr050LEDR8Y10G12B13HLFInfo.ino
+The sketch allows to control the operation of the LEDs that are connected to an strippoard that is linked with an Arduino board.
+The state of the LEDs and the blinking frequency can be vontrolled by the commands
+'H', 'L', '+', '-' and '0'.

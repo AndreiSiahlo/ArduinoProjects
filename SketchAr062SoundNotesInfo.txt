@@ -1,0 +1,3 @@
+* SketchAr062SoundNotes.ino 
+At the sketch uploading, the piezo buzzer connected to the arduino board 
+generates the sound signals with frequencies of the notes

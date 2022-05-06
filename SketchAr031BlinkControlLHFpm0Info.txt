@@ -1,0 +1,4 @@
+* SketchAr031BlinkControlLHFpm0.ino
+The sketch makes a LED on the Arduino board blinking.
+The state of the LED and the blinking frequency can be vontrolled by the commands
+'H', 'L', '+', '-' and '0'.

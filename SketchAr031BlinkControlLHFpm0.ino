@@ -1,11 +1,15 @@
 //  SketchAr031BlinkControlLHFpm0.ino
 // https://habr.com/ru/post/352806/
-//  The LED on the Arduino plate 
+//  The LED on the Arduino plate
+//  and the output pin LED 
 //  could be set in the 'On', 'Off' or the 'blinking' state.
 //  by the commands 'H' and 'L' or 'F'.
-//  The frequency of blinking is controlled by the commands '+' or '-'.
+//  The frequency of blinking is controlLED by the commands '+' or '-'.
 //  The initial frequency of blinking is set by the command '0'.
-const int BITRATE=9600;
+// !!! The Baud Rate of the COM window must be equal to the parameter of the function 
+//  Serial.begin(BAUDRATE) in the programm
+
+const int BAUDRATE=9600;
 const int ModeHIGH=1,ModeLOW=0,ModeFLASH=3,ModeON=1,ModeOFF=0;
 int HLFmode, OnOffMode, DurationOnOff;
 int TimeSlot=1000;
@@ -14,10 +18,10 @@ int TimeSlotMin=10;
 int TimeSlotMax=8001;
 int TimeSlotSmall=10;
 
-int Led = 13; // объявляем переменную Led на 13 пин (выход)
+int LED = 13; // объявляем переменную LED на 13 пин (выход)
 void setup(){
-    Serial.begin(BITRATE);    // Rate 9600 bit/s
-    pinMode(Led, OUTPUT); // определяем переменную
+    Serial.begin(BAUDRATE);    // Rate 9600 bit/s
+    pinMode(LED, OUTPUT); // определяем переменную
     HLFmode=ModeHIGH;
     HLFmode=ModeFLASH;
     OnOffMode=ModeON;
@@ -34,13 +38,16 @@ void loop()
       if (val == 'H')     // Если принят символ 'H'
          {HLFmode=ModeHIGH;
           OnOffMode=ModeON;
+          Serial.print(" Set ModeHIGH ");
         }
       if (val == 'L')     // Если принят символ 'L'
          {HLFmode=ModeLOW;
           OnOffMode=ModeOFF;
+          Serial.print(" Set ModeLOW ");
          }
       if (val == 'F')     // Если принят символ 'L'
          {HLFmode=ModeFLASH;
+          Serial.print(" Set ModeFLASH ");
          }
       if (val == '+')     // Если принят символ '+'
           TimeSlot=TimeSlot*2;
@@ -81,11 +88,11 @@ void loop()
     switch(OnOffMode)
     {case ModeON:
          // Serial.println("OnOffMode==ModeON");
-          digitalWrite(Led, HIGH); // Set Voltage on pin Led 
+          digitalWrite(LED, HIGH); // Set Voltage on pin LED 
           break;
      case ModeOFF:
           //Serial.println("OnOffMode==ModeOFF");
-          digitalWrite(Led, LOW);
+          digitalWrite(LED, LOW);
           break;
     }
        

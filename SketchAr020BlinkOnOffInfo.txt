@@ -1,0 +1,2 @@
+* SketchAr020BlinkOnOff.ino 
+The sketch makes a LED on the Arduino board light up and light off periodically.

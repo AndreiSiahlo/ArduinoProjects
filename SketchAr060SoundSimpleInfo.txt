@@ -1,0 +1,2 @@
+* SketchAr060SoundSimple.ino 
+The sketch switches on periodically the piezo buzzer connected to the arduino board

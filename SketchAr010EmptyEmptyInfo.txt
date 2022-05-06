@@ -1,0 +1,3 @@
+* SketchAr010EmptyEmpty.ino 
+The simplest sketch that provides no operations.
+The arduino boards resets after uploading the sketch

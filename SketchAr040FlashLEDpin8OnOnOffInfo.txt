@@ -1,0 +1,4 @@
+* SketchAr040FlashLEDpin8OnOnOff.ino
+The sketch makes a LED on the Arduino plate blinking.
+The state of the LED and the blinking frequency can be vontrolled by the commands
+'H', 'L', '+', '-' and '0'.

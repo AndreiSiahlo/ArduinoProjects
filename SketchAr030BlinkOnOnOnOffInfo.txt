@@ -1,0 +1,4 @@
+* SketchAr030BlinkOnOnOnOff.ino 
+The sketch makes a LED on the Arduino board light up for 3 seconds and light off for 1 the short time periodically.
+The voltage of 5V between the GND port and the Pin13 is set when the LED is lighting up.
+This sketch could be used to check the ports voltage of the arduino board.
