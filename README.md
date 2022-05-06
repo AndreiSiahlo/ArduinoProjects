@@ -38,11 +38,20 @@ The state of the diodes ('On','Off' or 'Flash')
   'H', 'L', 'F', '+', '-' and '0'.
 
 * SketchAr060SoundSimple.ino
-The sketch switches on periodically the piezo element connected to the arduino board
+The sketch switches on periodically the piezo buzzer connected to the arduino board
 
 * SketchAr062SoundNotes.ino
-At the sketch execution the piezo element connected to the arduino board generates the sound signals with frequencies of the notes
+At the sketch execution the piezo buzzer connected to the arduino board generates the sound signals with frequencies of the notes
 
 * SketchAr063SoundLaLaLaFa.ino
-At the sketch execution, the piezo element connected to the arduino board, 
- plays notes in sequence "La La La Fa Sol Sol Sol Mi" 
+At the sketch execution, the piezo buzzer connected to the arduino board, 
+ plays notes in sequence "La La La Fa Sol Sol Sol Mi"
+ 
+* SketchAr064SoundDRMFSLC.ino
+The sounds with the frequencies of the notes: do,re,mi,fa,sol,la,si,do are generated
+ on the piezo buzzer if the commands 'D', 'R', 'M', 'F', 'S', 'L', 'C'
+ are set to the Monitor Window.
+ 
+ 
+ 
+ 
