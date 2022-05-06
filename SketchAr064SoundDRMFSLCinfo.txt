@@ -1,4 +1,5 @@
+SketchAr064SoundDRMFSLC.ino
 
 The sounds with the frequencies of the notes: do,re,mi,fa,sol,la,si,do are generated
- on the piezo buzzer port if the commands 'D', 'R', 'M', 'F', 'S', 'L', 'C'
+ on the piezo buzzer if the commands 'D', 'R', 'M', 'F', 'S', 'L', 'C'
  are set to the Monitor Window.
