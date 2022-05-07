@@ -1,8 +1,10 @@
-//SketchAr062SoundNotes
+//SketchAr063SoundLaLaLaFa
 //http://developer.alexanderklimov.ru/arduino/piezo.php
-//При загрузке скетча подключенный к плате пьезодинамик генерирует звуковые сигналы с частотами нот
-//At the sketch execution, the piezo buzzer connected to the arduino board, 
-// plays notes in sequence "La La La Fa Sol Sol Sol Mi" 
+// At the sketch execution, the piezo buzzer connected to the arduino board, 
+//  plays notes in sequence "La La La Fa Sol Sol Sol Mi". 
+// This sequence of notes will be generated even whe the arduino board is connected 
+//   to any USB that gives power
+//    (not only to USB-port of computer).
 
 const int SoundPin = 2; // Пин подключения пьезоизлучателя – 2 дискретный
 const int NoteDuration100 = 70; // Длительность звучания ноты (0.1 секунда)
