@@ -2,12 +2,14 @@
 // The sketch outputs to the COM window  
 //  the float numbers numbers defined in the table NumbersToOutput[10].
 
-// The Commands that control this outputin the COM window:
+// The Commands that control the output in the COM window:
 // 'O' - output the next number
 // '0' - reset the list of the numbers
 // 'R' - generates and outputs the Random number
 // 'E' - generates the end of the line in the output window
- 
+
+// The link https://www.arduino.cc/reference/en/language/functions/random-numbers/random/
+//   contains the description of Random numbers generator 
 // !!! The Baud Rate of the COM window must be equal to the parameter of the function 
 //  Serial.begin(BAUDRATE) in the programm
 
@@ -25,6 +27,11 @@ void setup()
   // put your setup code here, to run once:
   NumbersI=0;
   ii1=0;
+  randomSeed(analogRead(0));
+      // if analog input pin 0 is unconnected, random analog
+      // noise will cause the call to randomSeed() to generate
+      // different seed numbers each time the sketch runs.
+      // randomSeed() will then shuffle the random function.
 }
 
 void loop()
@@ -64,4 +71,5 @@ void loop()
       {Serial.println();}
      Serial.print(' ');
      };//if (Serial.available())
+     //delay(100); The delay() function is not necessary
     };

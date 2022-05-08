@@ -1,0 +1,9 @@
+* SketchAr010EmptyEmpty.ino 
+The simplest sketch that provides no operations.
+The arduino boards resets after uploading the sketch
+
+ The Commands that control the output in the COM window:
+ 'O' - output the next number
+ '0' - reset the list of the numbers
+ 'R' - generates and outputs the Random number
+ 'E' - generates the end of the line in the output window
